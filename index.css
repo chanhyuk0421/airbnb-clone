@@ -227,3 +227,15 @@ header {
 #active-category-button .inactive-img{
     display: none;
 }
+
+
+#grid{
+    display: grid;
+    grid-template-rows: 20px 30px;
+    grid-template-columns: 50px 20px;
+    gap: 1px 20px;
+}
+
+#grid div {
+    background-color: red;
+}
